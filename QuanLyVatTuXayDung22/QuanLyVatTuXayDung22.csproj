@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuanLyVatTuXayDung22.BLL\QuanLyVatTuXayDung22.BLL.csproj" />
+    <ProjectReference Include="..\QuanLyVatTuXayDung22.Common\QuanLyVatTuXayDung22.Common.csproj" />
+  </ItemGroup>
+
+
+</Project>
