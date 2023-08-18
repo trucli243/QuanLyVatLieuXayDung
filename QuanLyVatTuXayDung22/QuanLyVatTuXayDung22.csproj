@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\QuanLyVatTuXayDung22.BLL\QuanLyVatTuXayDung22.BLL.csproj" />
     <ProjectReference Include="..\QuanLyVatTuXayDung22.Common\QuanLyVatTuXayDung22.Common.csproj" />
   </ItemGroup>
